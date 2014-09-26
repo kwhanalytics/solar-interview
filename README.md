@@ -37,7 +37,7 @@ Your basic task consists of creating a python module to grab data from a backend
 You might want to consider a few things as you code:
 
 -  How flexible is your code? Are the classes and the database closely or loosely coupled? Do the tests provide adequate coverage without being too implementation specific?
--  Is your code nicely formatted in and in-line with standard style guides? If you're unfamiliar with Python styles, a good resource is (pylint)[http://www.pylint.org/].
+-  Is your code nicely formatted in and in-line with standard style guides? If you're unfamiliar with Python styles, a good resource is [pylint](http://www.pylint.org/).
 -  What data structure did you use for the SolarPerformanceCollection? How quickly are the various operations performed (`add`, `min`, `max`, `count`, `top`)? Can you do better? How much does the implementation change if the dataset is frequently appended? Or if the dataset is rarely appended but frequently queried for the top k systems?
 
 # Part 2
