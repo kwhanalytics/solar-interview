@@ -51,3 +51,22 @@ Not only do we hope to calculate and work with the data, but we also hope to dis
 
 
 Good luck!
+
+# What We're Looking For
+
+## Candidate Background:
+
+-  **An Eye for Quality**: It’s not enough to write code that merely works -- for our agile team to pivot and innovate, we need code that is reusable, flexible and reliable. You must have knowledge of good programming practices and a desire to write great code.
+-  **Ready to Roll**: As a young start-up, we need teammates that can contribute strongly from day one. Experience in our software stack is strongly preferred, and the ability to learn quickly will be important for filling knowledge gaps and innovating. 
+-  **Team Player**: We’re a growing team, and we work collaboratively on all aspects of our projects. Good teamwork and respect for your peers is essential. 
+-  **Generalist**: We work with a number of languages and frameworks to achieve our goals. We value general software knowledge and the ability to learn new technologies. Knowledge of the latest architectural trends and the ability to change courses quickly is important.
+-  **Local**: We’re looking for a team member that will join us at our office in the heart of San Francisco’s hottest startup hub, Soma. 
+-  **Solar or Finance expertise a plus**: We build tools for the solar investment community, so a background in either is nice to have.
+
+## Technical Expectations:
+
+-  **Front-end**: Create and design user friendly and innovative ways to interact with our our data products in a web application (we use D3, LESS and Bootstrap).
+-  **Backend Database**: Work with and manage data stored in a relational database (we use PostgreSQL).
+-  **Controller**: Manage and build a large scale web application in an agnostic but structured framework (we use Python paired with Flask).
+-  **Mathematics / Data Science a plus**: Use and/or create software tools to gain insights into underlying data (SQL, Tableau, NumPy/SciPy/SciKit/Pandas).
+
