@@ -1,4 +1,6 @@
 """
+SolarPerformanceColleciton is a dataset to hold system production data.
+It is designed to be efficient, both in time and storage space.
 """
 
 class SolarPerformanceCollection(object):
@@ -39,14 +41,17 @@ class SolarPerformanceCollection(object):
         pass
 
     def top(self, k):
-        """ Return a dictionary of performance (values) by systems (keys) for the top k systems
+        """ Return an array of dictionaries of performance
+        (lifetimeperformance) and names (systemname) for the top k systems.
+        The results should be ordered in descending order.
 
         usage:
         systemperformance = spc.top(10)
 
-        where systemperformance = {'Sleepy': 1.01,
-                                   'Drowsy': 1.10,
-                                   ...
-                                  }
+        where systemperformance = [
+                {'systemname': 'Sleepy', 'lifetimeperformance': 1.10},
+                {'systemname': 'Doc', 'lifetimeperformance': 1.08,
+                ...
+            ]
         """
         pass
