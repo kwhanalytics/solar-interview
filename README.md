@@ -34,12 +34,12 @@ Your basic task consists of creating a python module to grab data from a backend
 3.  **Familiarize yourself with the existing code** - Check out the `test.db` file -- this is the sqlite3 database file. Check out files in the [`solar`](https://github.com/kwhanalytics/solar-interview/tree/master/solar) directory -- these are the files responsible for implementing the solar module. Check out the files in the [`test`](https://github.com/kwhanalytics/solar-interview/tree/master/test) directory -- these are the test which will now direct you.
 4.  **Familiarize yourself with the data** - Data is stored in the `test.db` file. You can interact with the data using the sqlite3 cli: `sqlite3 test.db`. To show the list of tables, type `.tables` into the sqlite3 command prompt. For a description of table columns, run `.schema TABLENAME`. The data is very simple -- you should easily understand the connection between the two tables. In Python, we recommend the `sqlite3` module.
 5.  **Run the tests** - A number of tests have been written for the code base. These tests describe the functionality expected in the modules. Try running the tests: `nosetests`.
-6.  **Write the code** - Write the code required to make the tests pass. In some cases, the tests haven't even been written -- in these cases, write the code for testing as well. In the process of writing the code, you may find that more tests are needed to cover your pases -- write them up!
+6.  **Write the code** - Write the code required to make the tests pass. In some cases, the tests haven't even been written -- in these cases, write the code for testing as well. In the process of writing the code, you may find that more tests are needed to cover your bases -- write them up!
 
 You might want to consider a few things as you code:
 
 -  How flexible is your code? Are the classes and the database closely or loosely coupled? Do the tests provide adequate coverage without being too implementation specific?
--  Is your code nicely formatted in and in-line with standard style guides? If you're unfamiliar with Python styles, a good resource is [pylint](http://www.pylint.org/).
+-  Is your code nicely formatted and in-line with standard style guides? If you're unfamiliar with Python styles, a good resource is [pylint](http://www.pylint.org/).
 -  What data structure did you use for the SolarPerformanceCollection? How quickly (in big-O notation) are the various operations performed (`add`, `min`, `max`, `count`, `top`)? Can you do better? How much does the implementation change if the dataset is frequently appended? Or if the dataset is rarely appended but frequently queried for the top k systems?
 
 # Part 2
