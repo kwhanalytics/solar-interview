@@ -81,9 +81,9 @@ class TestSolarPerformance(unittest.TestCase):
 
         raise Exception('Test not implimented')
 
-    def test_all(self):
+    def test_top(self):
         """
-        Instance should have a method to return all of the data in
+        Instance should have a method to return the top k values of
         the collection
         """
 
