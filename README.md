@@ -8,6 +8,7 @@ Welcome to the kWh Analytics interview project. Our goal in this project is to b
 -  **Time Limit**: This interview should take you 1-2 hours. Please do not spend more than 4 hours on the project (we trust you). 
 -  **Your Work**: The results should be your own work. Feel free to consult with Google or Stack Overflow, but cite any sources that you borrow substantial ideas or code from.
 -  **No Other People**: No one else should help you on the project.
+-  **Keep Your Results Private**: Make sure to keep your results private -- please don't publicly fork this repository, answer the questions, and submit a pull request.
 
 # Part 1
 
